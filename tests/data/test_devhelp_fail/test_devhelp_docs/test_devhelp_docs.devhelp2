@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE book PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "">
+<book xmlns="http://www.devhelp.net/book" title="Test documents for the Unity Devhelp scope" link="Devhelp.html" author="" name="atk" version="2" language="c">
+  <chapters>
+    <sub name="Devhelp test Library" link="Devhelp.html">
+      <sub name="Devhelp test Action" link="Devhelp.html"/>
+    </sub>
+    <sub name="Index of all symbols" link="Devhelp.html"/>
+  </chapters>
+  <functions>
+    <keyword type="struct" name="A test struct" link="Devhelp.html#DevhelpStruct"/>
+  </functions>
+</book>

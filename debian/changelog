@@ -1,0 +1,142 @@
+unity-scope-devhelp (0.1+14.04.20140328-0ubuntu5) resolute; urgency=medium
+
+  * No-change mass rebuild for Ubuntu 26.04 (LP: #2132257)
+
+ -- Sebastien Bacher <seb128@ubuntu.com>  Tue, 02 Dec 2025 23:10:21 +0100
+
+unity-scope-devhelp (0.1+14.04.20140328-0ubuntu4) hirsute; urgency=medium
+
+  * debian/control: updated for the new libunity gir naming
+
+ -- Sebastien Bacher <seb128@ubuntu.com>  Wed, 27 Jan 2021 16:47:01 +0100
+
+unity-scope-devhelp (0.1+14.04.20140328-0ubuntu3) bionic; urgency=medium
+ 
+  * Add "X-Ubuntu-Use-Langpack: yes" to debian/control now that this package is
+    in Universe (LP: #1760435).
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 07 Apr 2018 11:47:09 -0500
+
+unity-scope-devhelp (0.1+14.04.20140328-0ubuntu1) trusty; urgency=low
+
+  [ David Callé ]
+  * Don't crash Unity bindings when building results. (LP: #1274669)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 28 Mar 2014 09:16:27 +0000
+
+unity-scope-devhelp (0.1+13.10.20130809.1-0ubuntu1) saucy; urgency=low
+
+  [ David Callé ]
+  * Fix Type, introduce Master field.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 29
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 09 Aug 2013 11:49:17 +0000
+
+unity-scope-devhelp (0.1+13.10.20130723-0ubuntu1) saucy; urgency=low
+
+  [ David Callé ]
+  * Add module and moduletype.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 27
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 23 Jul 2013 06:12:35 +0000
+
+unity-scope-devhelp (0.1daily13.06.05-0ubuntu1) saucy; urgency=low
+
+  [ Mark Tully ]
+  * Initial commit
+  * Updated to new API Converted to Python 3 Updated .scope file
+  * Updated translations
+  * Add packaging
+  * Add Previews and Activation. (LP: #1170722)
+
+  [ David Callé ]
+  * Init/update POT file
+  * Fix copyright
+  * Install .scope file in its master folder
+  * Install to /usr/share/unity-scopes, fix service file accordingly
+  * Depends on unity-scopes-runner
+  * Fix Loader field in scope file
+  * Update category id.
+  * Limit the number of results to 50.
+  * Update description.
+  * Bump Unity deps.
+
+  [ David Callé davidc@framli.eu ]
+  * Add QueryBinary field (devhelp).
+
+  [ Didier Roche ]
+  * add missing stenza
+  * add python3-gi build-dep
+  * nuke wrong seederie
+  * Fix special character in debian/control
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 25
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 05 Jun 2013 06:09:20 +0000
+
+unity-scope-devhelp (0.1daily13.05.31ubuntu.unity.next-0ubuntu1) raring; urgency=low
+
+  [ Mark Tully ]
+  * Initial commit
+  * Updated to new API Converted to Python 3 Updated .scope file
+  * Updated translations
+  * Add packaging
+  * Add Previews and Activation. (LP: #1170722)
+
+  [ David Callé ]
+  * Init/update POT file
+  * Fix copyright
+  * Install .scope file in its master folder
+  * Install to /usr/share/unity-scopes, fix service file accordingly
+  * Depends on unity-scopes-runner
+  * Fix Loader field in scope file
+  * Update category id.
+  * Limit the number of results to 50.
+  * Update description.
+  * Bump Unity deps.
+
+  [ David Callé davidc@framli.eu ]
+  * Add QueryBinary field (devhelp).
+
+  [ Didier Roche ]
+  * add missing stenza
+  * add python3-gi build-dep
+  * nuke wrong seederie
+  * Fix special character in debian/control
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 24 (ubuntu-unity/next)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 31 May 2013 04:19:38 +0000
+
+unity-scope-devhelp (0.1daily13.05.07ubuntu.unity.experimental.certified-0ubuntu1) raring; urgency=low
+
+  [ Mark Tully ]
+  * Clicking on the Help scope results does nothing (LP: #1170722)
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 22 (ubuntu-unity/experimental-
+    certified)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 07 May 2013 07:21:59 +0000
+
+unity-scope-devhelp (0.1daily13.04.10ubuntu.unity.experimental.certified-0ubuntu1) raring; urgency=low
+
+  [ Mark Tully ]
+  * Initial release
+
+  [ Didier Roche ]
+  *  bump version in debian/control
+  * small packaging fixes. Don't go native but split
+  * Automatic snapshot from revision 1 (boostrap)
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 19 (ubuntu-unity/experimental-
+    certified)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 10 Apr 2013 07:19:25 +0000
